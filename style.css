@@ -15,4 +15,7 @@
 .navbar a:hover{
     background-color: aliceblue;
 }
-.navbar li
+
+.navbar li{
+float: left;
+}
