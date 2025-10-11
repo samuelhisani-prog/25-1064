@@ -1,4 +1,4 @@
-.header
+.body
 {
 background-image: url(https://wallpapercat.com/sports-bike-wallpapers);
 background-repeat: no repeat;
@@ -31,5 +31,6 @@ background-size: cover;
 .navbar li{
 float: left;
 }
+
 
 
