@@ -1,3 +1,13 @@
+.body {
+background-image: url(https://wallpapercat.com/w/full/0/6/3/607841-2560x1440-desktop-hd-sports-bike-wallpaper.jpg);
+background-repeat: no repeat;
+background-positon: center;
+background-attachment:fixed;
+background-size: cover;  
+
+};
+
+
 .navbar ul{
     list-style-type: none;
     background-color: red;
@@ -20,6 +30,7 @@
 .navbar li{
 float: left;
 }
+
 
 
 
