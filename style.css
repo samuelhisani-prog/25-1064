@@ -1,3 +1,14 @@
+.header
+{
+background-image: url(https://wallpapercat.com/sports-bike-wallpapers);
+background-repeat: no repeat;
+background-positon: center;
+background-attachment:fixed;
+background-size: cover;  
+
+};
+
+
 .navbar ul{
     list-style-type: none;
     background-color: red;
@@ -20,4 +31,5 @@
 .navbar li{
 float: left;
 }
+
 
