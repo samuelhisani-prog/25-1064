@@ -1,1 +1,12 @@
+th, td {
+    text-align: center;
+}
 
+table {
+  border: 2px solid blue;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
