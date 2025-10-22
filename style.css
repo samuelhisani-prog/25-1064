@@ -38,7 +38,7 @@
     color: #fff;
 }
 .content h1{
-    font-size: 70px;
+    font-size: 10vw;
     margin-top: 80px;
 }
 .content p{
@@ -46,5 +46,6 @@
     margin: 20px auto;
     font-weight: 100;
 }
+
 
 
