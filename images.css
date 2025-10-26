@@ -1,3 +1,7 @@
+body{
+  background-color: black;
+}
+
 .image-row {
   display: flex;
   justify-content: space-between; /* evenly distribute images across the width */
@@ -19,6 +23,7 @@
   border-radius: 5px;
   transition: transform 0.3s ease;
 }
+
 
 .image-row img:hover {
   transform: scale(1.05);         /* slight zoom effect */
