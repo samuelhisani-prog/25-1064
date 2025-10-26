@@ -1,0 +1,25 @@
+.image-row {
+  display: flex;
+  justify-content: space-between; /* evenly distribute images across the width */
+  align-items: center;            /* align vertically */
+  gap: 10px;                      /* space between images */
+  flex-wrap: nowrap;              /* keep all 6 in one line */
+  width: 100%;                    /* stretch across the page */
+  max-width: 1200px;              /* optional: limit total width */
+  margin: 0 auto;                 /* center the whole row on the page */
+  padding: 20px;                  /* space around the row */
+  box-sizing: border-box;
+}
+
+.image-row img {
+  flex: 1;                        /* make each image take equal space */
+  max-width: calc(16.66% - 10px); /* 100% / 6 images, minus the gaps */
+  aspect-ratio: 1 / 1;            /* ensures square shape */
+  object-fit: cover;              /* crop to fit nicely */
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.image-row img:hover {
+  transform: scale(1.05);         /* slight zoom effect */
+}
