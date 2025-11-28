@@ -92,5 +92,82 @@ body {padding: 20px;}
     font-size: 15px;
     line-height: 1.3;
 }
+table {
+    width: 70%;
+    margin: 20px auto;        /* Centers the table horizontally */
+    border-collapse: collapse; /* Merge borders into single lines */
+    border: 2px solid #4CAF50; /* Outer table border */
+}
+
+th, td {
+    border: 1px solid #4CAF50; /* Cell borders */
+    padding: 12px 15px;
+    text-align: center;         /* Center content in cells */
+}
+
+th {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra stripes */
+}
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;           /* Allow second row */
+  gap: 10px;                 /* Small space between videos */
+  justify-content: center;   /* Center videos */
+}
+
+.video-wrapper {
+  width: calc(50% - 5px);    /* Two videos per row */
+  position: relative;
+  padding-top: 40%;          /* Reduced height */
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  border: 0;
+}
+.site-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.site-footer a {
+  color: #4CAF50;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* vertically align text in row */
+  flex-wrap: wrap;           /* wrap if screen is too small */
+  gap: 20px;                 /* space between items */
+}
+
+
+
+
+
+
+
+
+
+
 
 
