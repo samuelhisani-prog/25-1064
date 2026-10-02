@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    padding:20px;
+    padding-left: 100px;
+}
+
+h2{
+    text-align:center;
+    color:#0056b3;
+    margin-bottom:10px;
+    font-size:26px;
+}
+
+
+
+/* Heading */
+h1{
+    color:#0d47a1;
+    margin-bottom:10px;
+}
+
+hr{
+    margin-bottom:20px;
+}
+
+/* Success/Error Message */
+
+
+/* Form */
+form{
+    width:800px;
+    margin:auto;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.15);
+}
+
+/* Table */
+table{
+    width:100%;
+    border-spacing:15px;
+}
+
+td{
+    width:50%;
+}
+
+/* Labels */
+label{
+    font-weight:bold;
+    color:#333;
+}
+
+/* Inputs and Select */
+input,
+select{
+    width:100%;
+    padding:10px;
+    margin-top:6px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:15px;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border:1px solid #1565c0;
+}
+
+/* Buttons */
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+button[type="submit"]{
+    background:#1565c0;
+    color:white;
+}
+
+button[type="submit"]:hover{
+    background:#0d47a1;
+}
+
+button[type="reset"]{
+    background:#6c757d;
+    color:white;
+    margin-left:10px;
+}
+
+button[type="reset"]:hover{
+    background:#545b62;
+}
+

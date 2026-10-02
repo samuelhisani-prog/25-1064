@@ -1,0 +1,112 @@
+/* General Page Styling */
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+    align-items: center;
+    padding-left: 300px;
+}
+
+/* Main Container */
+div{
+    box-sizing:border-box;
+    
+    
+}
+
+/* Card */
+body > div{
+    width:60%;
+    margin:50px auto;
+    
+}
+
+body > div > div{
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+    overflow:hidden;
+}
+
+/* Header */
+h3{
+    margin:0;
+    padding:20px;
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    font-size:28px;
+}
+
+/* Form Area */
+form{
+    padding:25px;
+}
+
+/* Arrange fields in two columns */
+form > div:first-child{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:50px;
+    padding-right: 30px;
+}
+
+/* Labels */
+label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+    color:#333;
+}
+
+/* Inputs and Select */
+input,
+select{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:15px;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border:1px solid #0d6efd;
+}
+
+/* Horizontal line */
+hr{
+    margin:30px 0;
+}
+
+/* Buttons Container */
+form > div:last-child{
+    text-align:right;
+}
+
+/* Buttons */
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+button[type="reset"]{
+    background:#6c757d;
+    color:white;
+    margin-right:10px;
+}
+
+button[type="submit"]{
+    background:#0d6efd;
+    color:white;
+}
+
+button:hover{
+    opacity:0.9;
+}
+

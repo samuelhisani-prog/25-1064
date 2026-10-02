@@ -1,0 +1,143 @@
+/* Page */
+body{
+    margin:0;
+    padding:0;
+    padding-left:250px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+}
+
+/* Main Content */
+.main-content{
+    width:70%;
+    max-width:800px;
+    margin:40px auto;
+}
+
+/* Form Container */
+.form-container{
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+    overflow:hidden;
+}
+
+/* Header */
+.form-header{
+    background:#0d6efd;
+    padding:20px;
+}
+
+.form-header h3{
+    margin:0;
+    color:#fff;
+    text-align:center;
+    font-size:28px;
+}
+
+/* Form */
+form{
+    padding:30px;
+}
+
+/* Two-column layout */
+.form-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px 50px;
+}
+
+/* Form Fields */
+.form-group{
+    display:flex;
+    flex-direction:column;
+}
+
+/* Labels */
+.form-group label{
+    margin-bottom:10px;
+    font-size:18px;
+    font-weight:bold;
+    color:#222;
+}
+
+/* Inputs & Select */
+.form-group input,
+.form-group select{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus{
+    outline:none;
+    border-color:#0d6efd;
+}
+
+/* Line */
+hr{
+    margin:35px 0;
+    border:none;
+    border-top:1px solid #ccc;
+}
+
+/* Buttons */
+.button-group{
+    display:flex;
+    justify-content:flex-end;
+    gap:15px;
+}
+
+.button-group button{
+    padding:12px 28px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+/* Cancel Button */
+.button-group button[type="button"]{
+    background:#6c757d;
+    color:white;
+}
+
+/* Save Button */
+.button-group button[type="submit"]{
+    background:#0d6efd;
+    color:white;
+}
+
+/* Hover Effect */
+.button-group button:hover{
+    opacity:0.9;
+}
+
+/* Responsive */
+@media (max-width:900px){
+
+    body{
+        padding-left:0;
+    }
+
+    .main-content{
+        width:95%;
+    }
+
+    .form-grid{
+        grid-template-columns:1fr;
+    }
+
+    .button-group{
+        justify-content:center;
+    }
+
+    .button-group button{
+        width:100%;
+    }
+}
